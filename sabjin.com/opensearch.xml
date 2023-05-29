@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Sabjin Search</ShortName>
+  <Description>Search for posts on Sabjin</Description>
+  <Tags>discourse forum</Tags>
+    <Image type="image/png">https://global.discourse-cdn.com/standard10/uploads/sabjin/optimized/1X/9937f33947c3c0a8eb79d8b43899c0dee8b50bdc_2_32x32.png</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://sabjin.com/opensearch.xml"/>
+  <Url type="text/html" template="https://sabjin.com/search?q={searchTerms}"/>
+  <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>
